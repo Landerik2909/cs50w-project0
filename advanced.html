@@ -11,7 +11,7 @@
 
     <body>
         <!--Navbar-->
-        <div class="container-fluid">
+        <div class="container-fluid ps-5">
             <div class="row">
                 <div class="col ">
                     <nav>
@@ -23,11 +23,11 @@
                     </nav>
                 </div>
             </div>
-        </div>
 
-        <!--Logo-->
-        <div class="container-fluid">
-            <div id="logo" class="row align-items-end text-center">
+
+            <!--Logo-->
+
+            <div class="row align-items-start">
                 <div class="col">
                     <svg aria-label="Google" height="92" role="img" viewBox="0 0 272 92" width="272"
                         xmlns="http://www.w3.org/2000/svg">
@@ -63,31 +63,41 @@
 
 
             <form action="https://google.com/search">
-                <div class="row justify-content-md-start text-left pt-4">
+                <div class="row justify-content-md-start pt-4">
                     <div class="col-1">
                         All these words:
-                        </div>
-                    <div class="col-3">
+                    </div>
+                    <div class="col-2">
                         <input class="form-control" type="text" name="as_q">
                     </div>
                 </div>
-                <div class="row justify-content-md-center text-center pt-4">
-                    <div class="col-6">
-                        This exact word or phrase: <input class="form-control" type="text" name="as_epq">
+                <div class="row justify-content-md-start pt-4">
+                    <div class="col-1">
+                        This exact word or phrase:
+                    </div>
+                    <div class="col-2">
+
+                        <input class="form-control" type="text" name="as_epq">
                     </div>
                 </div>
-                <div class="row justify-content-md-center text-center pt-4">
-                    <div class="col-6">
-                        Any of these words: <input class="form-control" type="text" name="as_oq">
+                <div class="row justify-content-md-start pt-4">
+                    <div class="col-1">
+                        Any of these words:
+                    </div>
+                    <div class="col-2">
+                        <input class="form-control" type="text" name="as_oq">
                     </div>
                 </div>
-                <div class="row justify-content-md-center text-center pt-4">
-                    <div class="col-6">
-                        None of these words: <input class="form-control" type="text" name="as_eq">
+                <div class="row justify-content-md-start pt-4">
+                    <div class="col-1">
+                        None of these words:
+                    </div>
+                    <div class="col-2">
+                        <input class="form-control" type="text" name="as_eq">
                     </div>
                 </div>
-                <div class="row justify-content-md-center text-center  pt-4">
-                    <div class="col">
+                <div class="row justify-content-md-start text-end pt-4">
+                    <div class="col-3">
                         <input class="btn btn-light m-1" type="submit" value="Google Search">
                     </div>
                 </div>
