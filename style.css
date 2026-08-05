@@ -1,0 +1,18 @@
+#logo {
+  height: 290px;
+}
+
+a {
+  font: 13px Arial !important;
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+.form-control {
+  border-radius: 20px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
