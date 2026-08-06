@@ -44,38 +44,42 @@
 
 
 
+
+
+
+
             <form action="https://google.com/search">
                 <div class="row justify-content-md-start pt-4">
                     <div class="col-1">
-                        All these words:
+                        <label for="allWords" class="col-form-label">All these words:</label>
                     </div>
                     <div class="col-2">
-                        <input class="form-control" type="text" name="as_q">
+                        <input id="allWords" class="form-control" type="text" name="as_q">
                     </div>
                 </div>
                 <div class="row justify-content-md-start pt-4">
                     <div class="col-1">
-                        This exact word or phrase:
+                        <label for="exactWords" class="col-form-label">This exact word or phrase:</label>
                     </div>
                     <div class="col-2">
+                        <input id="exactWords" class="form-control" type="text" name="as_epq">
+                    </div>
+                </div>
+                <div class="row justify-content-md-start pt-4">
+                    <div class="col-1">
+                        <label for="anyWords" class="col-form-label">Any of these words:</label>
 
-                        <input class="form-control" type="text" name="as_epq">
+                    </div>
+                    <div class="col-2">
+                        <input id="anyWords" class="form-control" type="text" name="as_oq">
                     </div>
                 </div>
                 <div class="row justify-content-md-start pt-4">
                     <div class="col-1">
-                        Any of these words:
+                        <label for="noneWords" class="col-form-label">None of these words:</label>
                     </div>
                     <div class="col-2">
-                        <input class="form-control" type="text" name="as_oq">
-                    </div>
-                </div>
-                <div class="row justify-content-md-start pt-4">
-                    <div class="col-1">
-                        None of these words:
-                    </div>
-                    <div class="col-2">
-                        <input class="form-control" type="text" name="as_eq">
+                        <input id="noneWords" class="form-control" type="text" name="as_eq">
                     </div>
                 </div>
                 <div class="row justify-content-md-start text-end pt-4">
